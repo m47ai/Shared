@@ -1,0 +1,176 @@
+name: 🍫 Shared
+
+on:
+  workflow_dispatch: {}
+  
+  pull_request:
+    branches:
+      - "*"
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - ready_for_review
+    paths:
+      - '.github/workflows/backend_shared.yml'
+      - 'Shared/src/Backend/**'
+      - 'Shared/test/Backend/**'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.sha }}
+  cancel-in-progress: true
+
+jobs:
+  shared-backend:
+    runs-on: ubuntu-latest
+    if: ${{ !github.event.pull_request.draft }}
+    timeout-minutes: 10
+
+    outputs:
+      status: ${{ steps.set-output.outputs.status }}
+
+    steps:
+      - name: 🧲 Checkout 
+        uses: actions/checkout@v4
+
+      - name: Debug Step
+        env:
+          DEBUG: false
+        run: |
+          echo "Debug mode is active"
+          echo "Variable DEBUG = $DEBUG"
+
+      - name: Set permissions on init.sh
+        run: |
+          # git update-index --chmod=+x ./scripts/development/localstack/init.sh https://stackoverflow.com/a/21694391/541877
+          chmod +x ./scripts/development/localstack/init.sh
+          test -x ./scripts/development/localstack/init.sh && echo "init.sh Is Executable" || echo "init.sh  is NOT executable"
+
+      - name: 🛠️ Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+                    
+      - uses: actions/cache@v3
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-
+
+      - name: 🌱 Set 'host.docker.internal' DNS name to host
+        run: echo -e "`/sbin/ip route | awk '/default/ { print $3 }'`\tdocker.host.internal" | sudo tee -a /etc/hosts > /dev/null
+
+      - name: 🌍 Restore dependencies
+        run: dotnet restore Shared/test/Backend/Shared.Tests.csproj -v q --nologo
+
+      - name: 🔨 Build Tests
+        run: dotnet build Shared/test/Backend/Shared.Tests.csproj --no-restore --configuration Release -v q --nologo
+
+      - name: 🔥 Run Tests
+        run: |
+              dotnet test Shared/test/Backend/Shared.Tests.csproj --no-build --configuration Release \
+                --logger "trx;LogFileName=test-results.trx" \
+                --logger:"console;verbosity=detailed" --verbosity:detailed
+        continue-on-error: true
+
+      - name: 💾 Save status
+        id: set-output
+        if: success()
+        run: echo "status=success" >> $GITHUB_OUTPUT
+
+      - uses: actions/upload-artifact@v3.1.3
+        if: success() || failure() 
+        with:
+            name: test-results
+            path: |
+                **/*.trx
+            retention-days: 1
+
+  shared-report:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    needs: [shared-backend]
+
+    if: ${{ !github.event.pull_request.draft }} && (success() || failure()) && ${{ !contains(github.actor, 'dependabot') }}
+
+    env:
+        SUCCESS_CONDITIONS: ${{ needs.shared-backend.outputs.status == 'success' }}
+
+    steps:
+      - name: 📢 Show status
+        run: | 
+             echo "::group::Status"
+             echo "The global status of tests is = $SUCCESS_CONDITIONS"
+             echo "- status1 = ${{needs.shared-backend.outputs.status}}"
+             echo "::endgroup::"
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v3.0.2
+        with:
+            name: test-results
+            path: .
+
+      - name: 📢 Generating Tests Results Reporter
+        uses: dorny/test-reporter@v1
+        with:
+          # Name or regex of artifact containing test results
+          # Regular expression must be enclosed in '/'.
+          # Values from captured groups will replace occurrences of $N in report name.
+          # Example:
+          #   artifact: /test-results-(.*)/
+          #   name: 'Test report $1'
+          #   -> Artifact 'test-result-ubuntu' would create report 'Test report ubuntu'
+          # artifact: ''
+
+          # Name of the Check Run which will be created
+          name: Shared Results
+
+          # Coma separated list of paths to test results
+          # Supports wildcards via [fast-glob](https://github.com/mrmlnc/fast-glob)
+          # All matched result files must be of the same format
+          path: "**/test-results.trx"  
+
+          # The fast-glob library that is internally used interprets backslashes as escape characters.
+          # If enabled, all backslashes in provided path will be replaced by forward slashes and act as directory separators.
+          # It might be useful when path input variable is composed dynamically from existing directory paths on Windows.
+          path-replace-backslashes: 'false'
+
+          # Format of test results. Supported options:
+          #   dart-json
+          #   dotnet-trx
+          #   flutter-json
+          #   java-junit
+          #   jest-junit
+          #   mocha-json
+          reporter: dotnet-trx
+
+          # Allows you to generate only the summary.
+          # If enabled, the report will contain a table listing each test results file and the number of passed, failed, and skipped tests.
+          # Detailed listing of test suites and test cases will be skipped.
+          only-summary: 'false'
+
+          # Limits which test suites are listed:
+          #   all
+          #   failed
+          list-suites: 'all'
+
+          # Limits which test cases are listed:
+          #   all
+          #   failed
+          #   none
+          list-tests: 'all'
+
+          # Limits number of created annotations with error message and stack trace captured during test execution.
+          # Must be less or equal to 50.
+          max-annotations: '50'
+
+          # Set action as failed if test report contains any failed test
+          fail-on-error: 'true'
+
+          # Relative path under $GITHUB_WORKSPACE where the repository was checked out.
+          working-directory: ''
+          # Personal access token used to interact with Github API
+          # Default: ${{ github.token }}
+          # token: ''

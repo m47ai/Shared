@@ -1,0 +1,2123 @@
+[
+  {
+    "id": "narrativePace",
+    "globalIndex": 0.2,
+    "values": [
+      {
+        "valueMin": 0.00,
+        "valueMax": 1.99,
+        "index": 1,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 1 indica que el ritmo narrativo es muy bajo en el texto. Esto significa que la historia avanza lentamente, lo que puede resultar en una lectura aburrida y poco interesante para el lector. El bajo ritmo narrativo puede deberse a una falta de eventos o acciones significativas que impulsen la trama."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 narrativePace"
+          }
+        ]
+      },
+      {
+        "valueMin": 2.00,
+        "valueMax": 2.99,
+        "index": 2,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 2 indica que el ritmo narrativo es bajo en el texto, pero se observan algunos eventos o acciones que impulsan la trama, aunque de manera limitada. Sin embargo, aún se necesita trabajar en mejorar el ritmo para mantener el interés del lector."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 2 narrativePace"
+          }
+        ]
+      },
+      {
+        "valueMin": 3.00,
+        "valueMax": 3.99,
+        "index": 3,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 3 indica que el ritmo narrativo es moderadamente bajo en el texto. Aunque se presentan algunos eventos o acciones que impulsan la trama, aún se necesita trabajar en mantener un ritmo más ágil y dinámico."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 3 narrativePace"
+          }
+        ]
+      },
+      {
+        "valueMin": 4.00,
+        "valueMax": 4.99,
+        "index": 4,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 4 indica que el ritmo narrativo es moderado en el texto, pero aún se puede trabajar en mantener un ritmo más constante y ágil en toda la historia."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 4 narrativePace"
+          }
+        ]
+      },
+      {
+        "valueMin": 5.00,
+        "valueMax": 5.99,
+        "index": 5,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 5 indica que el ritmo narrativo es moderado en el texto, con momentos de mayor intensidad intercalados con momentos de menor acción. Aunque la historia avanza de manera consistente, aún se puede trabajar en mantener un ritmo más ágil y constante."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 5 narrativePace"
+          }
+        ]
+      },
+      {
+        "valueMin": 6.00,
+        "valueMax": 6.99,
+        "index": 6,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 6 indica que el ritmo narrativo es moderadamente ágil en el texto. La historia avanza de manera constante y se presentan eventos o acciones relevantes, pero aún se puede trabajar en mantener un ritmo más dinámico y cautivador."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 6 narrativePace"
+          }
+        ]
+      },
+      {
+        "valueMin": 7.00,
+        "valueMax": 7.99,
+        "index": 7,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 7 indica que el ritmo narrativo es ágil en el texto. La historia avanza de manera constante y se presentan eventos o acciones relevantes de manera efectiva, manteniendo el interés del lector."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 7 narrativePace"
+          }
+        ]
+      },
+      {
+        "valueMin": 8.00,
+        "valueMax": 8.99,
+        "index": 8,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 8 indica que el ritmo narrativo es muy ágil en el texto. La historia avanza rápidamente y se presentan eventos o acciones relevantes de manera efectiva, manteniendo al lector enganchado."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 8 narrativePace"
+          }
+        ]
+      },
+      {
+        "valueMin": 9.00,
+        "valueMax": 9.99,
+        "index": 9,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 9 indica que el ritmo narrativo es excelente en el texto. La historia avanza de manera ágil y emocionante, manteniendo al lector inmerso en la trama y deseando saber qué sucederá a continuación."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 9 narrativePace"
+          }
+        ]
+      },
+      {
+        "valueMin": 10.00,
+        "valueMax": 10.00,
+        "index": 10,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 10 indica que el ritmo narrativo es perfecto en el texto. La historia avanza a un ritmo constante y emocionante, manteniendo al lector totalmente involucrado en la trama."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 10 narrativePace"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "readingPace",
+    "globalIndex": 0.15,
+    "values": [
+      {
+        "valueMin": 0.00,
+        "valueMax": 1.99,
+        "index": 1,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un índice de ritmo de lectura de 1 indica que la novela presenta una lectura extremadamente lenta y pesada. Esto puede deberse a diversos factores, como una trama compleja y confusa, una narrativa densa o un estilo de escritura poco claro. El ritmo de lectura lento puede frustrar a los lectores, ya que requiere un esfuerzo adicional para avanzar en la historia. Es esencial equilibrar el ritmo de lectura lento con otros aspectos que mantengan el interés del lector, como personajes intrigantes o un estilo narrativo cautivador. Además, una estructura clara y una organización lógica de la trama pueden ayudar a mejorar la fluidez de la lectura."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 readingPace"
+          }
+        ]
+      },
+      {
+        "valueMin": 2.00,
+        "valueMax": 2.99,
+        "index": 2,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un índice de ritmo de lectura de 2 indica que la novela presenta un ritmo de lectura lento. Puede haber elementos de la historia o la narración que dificulten la fluidez de la lectura, pero es posible avanzar a través de la novela con cierto esfuerzo. Es importante revisar la claridad de la escritura y la estructura de la historia. Simplificar las frases y eliminar elementos innecesarios puede facilitar la comprensión y el flujo de la lectura. También se pueden utilizar técnicas narrativas como el uso de diálogos dinámicos o capítulos cortos para mantener el interés y el ritmo."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 2 readingPace"
+          }
+        ]
+      },
+      {
+        "valueMin": 3.00,
+        "valueMax": 3.99,
+        "index": 3,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un índice de ritmo de lectura de 3 indica que la novela presenta un ritmo de lectura lento pero aún manejable. Puede haber algunos obstáculos que dificulten la fluidez de la lectura, como descripciones excesivas o tramas secundarias complicadas. Es recomendable revisar y simplificar las descripciones excesivas o eliminar tramas secundarias que no aporten significativamente a la historia principal. Centrarse en los elementos clave de la trama y eliminar cualquier contenido que pueda distraer al lector ayudará a agilizar la lectura."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 3 readingPace"
+          }
+        ]
+      },
+      {
+        "valueMin": 4.00,
+        "valueMax": 4.99,
+        "index": 4,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un índice de ritmo de lectura de 4 indica que la novela presenta un ritmo de lectura moderado. La historia puede avanzar a un ritmo constante, pero aún existen ciertos aspectos que ralentizan la lectura. Es importante equilibrar los elementos descriptivos con el avance de la trama. Asegurarse de que las descripciones y los detalles sean relevantes y contribuyan al desarrollo de la historia ayudará a mantener el ritmo y evitar que la lectura se vuelva tediosa. Además, se pueden utilizar técnicas de transición suaves entre escenas y capítulos para mantener el flujo narrativo."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 4 readingPace"
+          }
+        ]
+      },
+      {
+        "valueMin": 5.00,
+        "valueMax": 5.99,
+        "index": 5,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un índice de ritmo de lectura de 5 indica que la novela presenta un ritmo de lectura promedio. La historia avanza de manera constante y los lectores pueden seguir el hilo sin dificultad significativa. Aunque siempre se pueden realizar ajustes para mejorar aún más la fluidez de la lectura. Mantener la estructura de la trama clara y coherente, utilizar un lenguaje conciso y evitar repeticiones innecesarias ayudarán a mantener un ritmo de lectura óptimo."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 5 readingPace"
+          }
+        ]
+      },
+      {
+        "valueMin": 6.00,
+        "valueMax": 6.99,
+        "index": 6,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un índice de ritmo de lectura de 6 indica que la novela presenta un ritmo de lectura moderadamente rápido y ágil. La trama se desarrolla de manera fluida y los lectores pueden avanzar sin dificultades significativas. Es importante mantener un equilibrio entre los elementos narrativos y descriptivos. Utilizar un estilo de escritura claro y conciso, así como mantener el interés del lector con giros inesperados en la trama o momentos de suspenso, puede ayudar a mantener un ritmo de lectura satisfactorio."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 6 readingPace"
+          }
+        ]
+      },
+      {
+        "valueMin": 7.00,
+        "valueMax": 7.99,
+        "index": 7,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un índice de ritmo de lectura de 7 indica que la novela presenta un ritmo de lectura rápido y fluido. La historia se desarrolla de manera dinámica y los lectores pueden avanzar sin dificultades notables. Es fundamental mantener una trama bien estructurada y utilizar técnicas narrativas efectivas, como diálogos ágiles y escenas de acción envolventes. Evitar repeticiones innecesarias y mantener la tensión en la narración ayudará a mantener el interés del lector y a que la lectura sea emocionante."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 7 readingPace"
+          }
+        ]
+      },
+      {
+        "valueMin": 8.00,
+        "valueMax": 8.99,
+        "index": 8,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un índice de ritmo de lectura de 8 indica que la novela presenta un ritmo de lectura rápido, ágil y emocionante. Los lectores se sienten inmersos en la historia y pueden avanzar sin esfuerzo. Es crucial mantener un equilibrio entre los momentos de acción y los momentos de calma. Utilizar un lenguaje dinámico y evocador, así como estructurar la trama de manera que mantenga el interés constante, contribuirá a un ritmo de lectura satisfactorio."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 8 readingPace"
+          }
+        ]
+      },
+      {
+        "valueMin": 9.00,
+        "valueMax": 9.99,
+        "index": 9,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un índice de ritmo de lectura de 9 indica que la novela presenta un ritmo de lectura muy rápido y cautivador. Los lectores se sienten absorbidos por la historia y no pueden dejar de leer. Mantener un ritmo de lectura muy rápido requiere de una narrativa intensa y una trama bien orquestada. Utilizar técnicas como cliffhangers al final de los capítulos, cambios de perspectiva intrigantes o revelaciones sorprendentes mantendrá a los lectores enganchados y deseando continuar con la lectura."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 9 readingPace"
+          }
+        ]
+      },
+      {
+        "valueMin": 10.00,
+        "valueMax": 10.00,
+        "index": 10,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un índice de ritmo de lectura de 10 indica que la novela presenta un ritmo de lectura perfecto. La historia se desarrolla de manera fluida y ágil, manteniendo a los lectores completamente cautivados de principio a fin. Es importante contar con una trama sólida y bien estructurada, personajes convincentes y un estilo narrativo que sea atractivo y fácil de seguir. Además, es esencial prestar atención a los comentarios y retroalimentación de los lectores para pulir cualquier aspecto que pueda afectar el ritmo de lectura."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 10 readingPace"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "evocative",
+    "globalIndex": 0.1,
+    "values": [
+      {
+        "valueMin": 0.00,
+        "valueMax": 1.99,
+        "index": 1,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 1 indica que hay muy poca evocación en el texto. El lector no se siente transportado a las situaciones, no experimenta emociones o ideas conmovedoras y no logra conocer mejor a los personajes. El texto puede resultar plano y carente de vida."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 evocative"
+          }
+        ]
+      },
+      {
+        "valueMin": 2.00,
+        "valueMax": 2.99,
+        "index": 2,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 2 indica que la evocación en el texto es limitada. El lector puede tener alguna conexión emocional, pero no es lo suficientemente profunda o significativa como para generar una experiencia impactante."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 2 evocative"
+          }
+        ]
+      },
+      {
+        "valueMin": 3.00,
+        "valueMax": 3.99,
+        "index": 3,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 3 indica que el nivel de evocación en el texto es moderado. Hay algunos momentos en los que el lector se siente transportado, pero en general, la experiencia emocional y la conexión con los personajes podrían ser más profundas."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 3 evocative"
+          }
+        ]
+      },
+      {
+        "valueMin": 4.00,
+        "valueMax": 4.99,
+        "index": 4,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 4 indica que hay cierta evocación en el texto, pero aún se puede mejorar para lograr una experiencia más impactante. El lector puede conectar ocasionalmente con las situaciones y los personajes, pero no de manera constante o profunda."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 4 evocative"
+          }
+        ]
+      },
+      {
+        "valueMin": 5.00,
+        "valueMax": 5.99,
+        "index": 5,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 5 indica que hay una evocación moderada en el texto, pero aún se puede trabajar para lograr una experiencia más inmersiva y conmovedora. El lector puede sentirse conectado en ciertos momentos, pero no de manera constante o profunda a lo largo de la historia."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 5 evocative"
+          }
+        ]
+      },
+      {
+        "valueMin": 6.00,
+        "valueMax": 6.99,
+        "index": 6,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 6 indica que hay una evocación decente en el texto, pero aún hay margen para mejorar y lograr una experiencia más cautivadora. El lector puede sentirse transportado en algunos momentos, pero no de manera constante o profunda."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 6 evocative"
+          }
+        ]
+      },
+      {
+        "valueMin": 7.00,
+        "valueMax": 7.99,
+        "index": 7,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 7 indica que hay una buena evocación en el texto. El lector se siente transportado en varias ocasiones y logra conectar con las situaciones y los personajes, aunque aún hay espacio para mejorar y profundizar la experiencia emocional."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 7 evocative"
+          }
+        ]
+      },
+      {
+        "valueMin": 8.00,
+        "valueMax": 8.99,
+        "index": 8,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 8 indica que hay una evocación sólida en el texto. El lector se siente transportado en varias ocasiones y experimenta una conexión emocional significativa con las situaciones y los personajes."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 8 evocative"
+          }
+        ]
+      },
+      {
+        "valueMin": 9.00,
+        "valueMax": 9.99,
+        "index": 9,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 9 indica que hay una evocación excepcional en el texto. El lector se siente transportado de manera constante y profunda, experimentando una gama completa de emociones y conexiones con los personajes."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 9 evocative"
+          }
+        ]
+      },
+      {
+        "valueMin": 10.00,
+        "valueMax": 10.00,
+        "index": 10,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 10 indica que hay un nivel sobresaliente de evocación en el texto. El lector se siente completamente inmerso en la historia, experimentando una amplia gama de emociones y conectando profundamente con los personajes y las situaciones."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 10 evocative"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "readability",
+    "globalIndex": 0.12,
+    "values": [
+      {
+        "valueMin": 0.00,
+        "valueMax": 10.00,
+        "index": 1,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 1 indica que hay un porcentaje muy bajo de frases de 1 a 15 palabras en el texto. Esto puede hacer que la lectura sea pesada y dificulte la comprensión y el flujo de la narrativa. Las frases pueden ser excesivamente largas y complejas, lo que puede agotar la atención del lector."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 readability"
+          }
+        ]
+      },
+      {
+        "valueMin": 10.01,
+        "valueMax": 20.00,
+        "index": 2,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 2 indica que el porcentaje de frases de 1 a 15 palabras es bajo, lo que puede afectar el ritmo y la comprensión de la lectura. Las frases pueden ser demasiado largas y complejas, dificultando la fluidez y la conexión con el texto."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 2 readability"
+          }
+        ]
+      },
+      {
+        "valueMin": 20.01,
+        "valueMax": 30.00,
+        "index": 3,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 3 indica que hay un porcentaje moderado de frases de 1 a 15 palabras en el texto. Aunque el ritmo de lectura puede ser aceptable, aún hay margen para mejorar la fluidez y la comprensión."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 3 readability"
+          }
+        ]
+      },
+      {
+        "valueMin": 30.01,
+        "valueMax": 40.00,
+        "index": 4,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 4 indica que hay un porcentaje moderadamente bajo de frases de 1 a 15 palabras en el texto. Aunque el ritmo de lectura puede ser adecuado en algunos momentos, aún se puede trabajar para mejorar la fluidez y la comprensión general."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 4 readability"
+          }
+        ]
+      },
+      {
+        "valueMin": 40.01,
+        "valueMax": 50.00,
+        "index": 5,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 5 indica que hay un porcentaje moderado de frases de 1 a 15 palabras en el texto. El ritmo de lectura puede ser aceptable en general, pero aún hay margen para mejorar la fluidez y la comprensión en ciertos puntos."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 5 readability"
+          }
+        ]
+      },
+      {
+        "valueMin": 50.01,
+        "valueMax": 60.00,
+        "index": 6,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 6 indica que hay un porcentaje moderadamente alto de frases de 1 a 15 palabras en el texto. El ritmo de lectura puede ser bueno en general, pero aún se puede trabajar en algunos puntos para mejorar la fluidez y la comprensión."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 6 readability"
+          }
+        ]
+      },
+      {
+        "valueMin": 60.01,
+        "valueMax": 70.00,
+        "index": 7,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 7 indica que hay un porcentaje alto de frases de 1 a 15 palabras en el texto. El ritmo de lectura es generalmente bueno y la comprensión no suele ser un problema, aunque aún hay margen para mejorar algunos aspectos."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 7 readability"
+          }
+        ]
+      },
+      {
+        "valueMin": 70.01,
+        "valueMax": 80.00,
+        "index": 8,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 8 indica que hay un alto porcentaje de frases de 1 a 15 palabras en el texto. El ritmo de lectura es fluido y la comprensión es generalmente buena, aunque aún se pueden hacer ajustes para mantener el interés y la claridad."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 8 readability"
+          }
+        ]
+      },
+      {
+        "valueMin": 80.01,
+        "valueMax": 90.00,
+        "index": 9,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 9 indica que hay un porcentaje muy alto de frases de 1 a 15 palabras en el texto. El ritmo de lectura es rápido y fluido, lo que facilita la comprensión y mantiene el interés del lector en la historia."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 9 readability"
+          }
+        ]
+      },
+      {
+        "valueMin": 90.01,
+        "valueMax": 100.00,
+        "index": 10,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 10 indica que hay un porcentaje máximo de frases de 1 a 15 palabras en el texto. El ritmo de lectura es ágil y la comprensión es excelente. El lector puede sumergirse fácilmente en la historia y mantener un alto nivel de interés."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 10 readability"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "actionVerbs",
+    "globalIndex": 0.15,
+    "values": [
+      {
+        "valueMin": 0.00,
+        "valueMax": 10.00,
+        "index": 1,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto carece de verbos de acción que impulsen la narrativa. La falta de acción y movimiento puede hacer que la lectura resulte monótona y carente de emoción. Los verbos de acción son fundamentales para dar ritmo y dinamismo a la narración, permitiendo que la historia avance y mantenga el interés del lector. Una puntuación de 1 indica que se necesita incorporar más verbos de acción para dar vida y energía a la narrativa."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 actionVerbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 10.01,
+        "valueMax": 20.00,
+        "index": 2,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto contiene un número limitado de verbos de acción, lo que afecta la fluidez y el ritmo narrativo. La falta de acción puede hacer que la lectura se vuelva estática y poco emocionante. Los verbos de acción son esenciales para mantener el interés del lector y generar tensión en la historia. Una puntuación de 2 indica que se requiere una mayor incorporación de verbos de acción para impulsar la narrativa y hacerla más dinámica."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 2 actionVerbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 20.01,
+        "valueMax": 30.00,
+        "index": 3,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto incluye algunos verbos de acción, pero su uso es limitado y no logra generar un ritmo narrativo sólido. La falta de acción y movimiento puede dificultar la conexión del lector con la historia. Los verbos de acción son necesarios para impulsar la trama, crear escenas vívidas y mantener la atención del lector. Una puntuación de 3 sugiere que se deben aumentar los verbos de acción para brindar mayor ritmo y energía a la narrativa."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 3 actionVerbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 30.01,
+        "valueMax": 40.00,
+        "index": 4,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto contiene algunos verbos de acción, pero su presencia no es suficiente para mantener un ritmo narrativo constante. La falta de acción puede hacer que la lectura se sienta lenta y poco emocionante. Los verbos de acción son esenciales para impulsar la trama y mantener el interés del lector. Una puntuación de 4 indica que se necesita una mayor incorporación de verbos de acción para generar un ritmo más sólido y mantener la atención del lector."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 4 actionVerbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 40.01,
+        "valueMax": 50.00,
+        "index": 5,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto incluye una cantidad moderada de verbos de acción, lo que ayuda a mantener un ritmo narrativo fluido. Sin embargo, podría beneficiarse de una mayor incorporación de verbos de acción para generar un mayor nivel de energía y dinamismo en la narración. Los verbos de acción son fundamentales para impulsar la trama, crear escenas vívidas y mantener el interés del lector. Una puntuación de 5 sugiere que se deben añadir más verbos de acción para potenciar el ritmo y la emoción de la narrativa."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 5 actionVerbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 50.01,
+        "valueMax": 60.00,
+        "index": 6,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto utiliza una cantidad adecuada de verbos de acción para mantener un ritmo narrativo atractivo. Los verbos de acción impulsan la trama, generan movimiento y crean escenas vívidas en la mente del lector. La lectura fluye de forma natural y el lector se siente involucrado en la historia. Sin embargo, aún existe margen para agregar algunos verbos de acción adicionales para intensificar el ritmo y la emoción de la narrativa."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 6 actionVerbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 60.01,
+        "valueMax": 70.00,
+        "index": 7,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto incluye una buena cantidad de verbos de acción que aportan ritmo y dinamismo a la narración. Los verbos de acción impulsan la trama, crean escenas visualmente impactantes y mantienen la atención del lector. La lectura es fluida y emocionante, y el lector se siente inmerso en la historia. Una puntuación de 7 indica que el texto demuestra una habilidad para utilizar los verbos de acción de manera efectiva para mantener el ritmo narrativo."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 7 actionVerbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 70.01,
+        "valueMax": 80.00,
+        "index": 8,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto utiliza una cantidad adecuada de verbos de acción, lo que le da un ritmo narrativo envolvente y atractivo. Los verbos de acción impulsan la trama, generan tensión y crean imágenes vívidas en la mente del lector. La narrativa fluye de manera natural y el lector se siente involucrado en la acción. Sin embargo, aún hay espacio para agregar algunos verbos de acción adicionales para intensificar el ritmo y la emoción de la narrativa."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 8 actionVerbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 80.01,
+        "valueMax": 90.00,
+        "index": 9,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto incluye una variedad de verbos de acción que aportan ritmo, dinamismo y emoción a la narración. Los verbos de acción impulsan la trama, crean escenas vívidas y mantienen al lector inmerso en la historia. La lectura es ágil y emocionante, y el lector se siente atrapado por la acción. Una puntuación de 9 indica que el texto demuestra una habilidad destacada para utilizar los verbos de acción de manera efectiva para crear un ritmo narrativo envolvente."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 9 actionVerbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 90.01,
+        "valueMax": 100.00,
+        "index": 10,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto utiliza una cantidad perfecta de verbos de acción para generar un ritmo narrativo vibrante y envolvente. Los verbos de acción impulsan la trama, crean escenas dinámicas y mantienen al lector totalmente inmerso en la historia. La lectura es emocionante, llena de movimiento y con un ritmo constante. Una puntuación de 10 indica que el texto demuestra una maestría excepcional en el uso de los verbos de acción para crear una narrativa enérgica y atrapante."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 10 actionVerbs"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adverbs",
+    "globalIndex": 0.04,
+    "values": [
+      {
+        "valueMin": 14.01,
+        "valueMax": 100.00,
+        "index": 1,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 1 indica que hay un uso abusivo de adverbios en el texto. Esto puede resultar en una lectura sobrecargada y redundante, donde los adverbios no aportan valor o claridad a la narrativa. El exceso de adverbios puede hacer que la escritura se vuelva torpe y poco efectiva, distrayendo al lector de la trama y dificultando la inmersión en la historia."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 adverbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 13.01,
+        "valueMax": 14.00,
+        "index": 2,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 2 indica que hay un uso excesivo de adverbios en el texto, lo que puede hacer que la narrativa sea redundante y carente de precisión. Los adverbios pueden restar fluidez y dificultar la comprensión de la historia."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 2 adverbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 12.01,
+        "valueMax": 13.00,
+        "index": 3,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 3 indica que hay un uso moderado de adverbios en el texto, pero aún se puede trabajar en su uso para lograr una mayor precisión y variedad en la narrativa. Los adverbios pueden agregar información útil, pero también es importante no depender demasiado de ellos."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 3 adverbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 11.01,
+        "valueMax": 12.00,
+        "index": 4,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 4 indica que hay un uso moderadamente alto de adverbios en el texto, lo que puede resultar en una narrativa que depende en gran medida de ellos. Aunque los adverbios pueden ser útiles para agregar información y matices, aún se puede trabajar en lograr una mayor precisión y variedad en las descripciones."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 4 adverbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 10.01,
+        "valueMax": 11.00,
+        "index": 5,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 5 indica que hay un uso moderado de adverbios en el texto. Si bien los adverbios pueden agregar información y matiz a la narrativa, aún se puede trabajar en su uso para lograr una mayor variedad y precisión."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 5 adverbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 9.01,
+        "valueMax": 10.00,
+        "index": 6,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 6 indica que hay un uso moderadamente alto de adverbios en el texto. Si bien los adverbios pueden ser útiles para agregar información y matiz, aún se puede trabajar en su uso para lograr una mayor variedad y evitar la redundancia."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 6 adverbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 8.01,
+        "valueMax": 9.00,
+        "index": 7,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 7 indica que hay un uso equilibrado de adverbios en el texto. Los adverbios son utilizados de manera efectiva para agregar información y matiz a la narrativa sin ser abrumadores."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 7 adverbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 7.01,
+        "valueMax": 8.00,
+        "index": 8,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 8 indica que hay un uso adecuado de adverbios en el texto. Los adverbios son utilizados de manera efectiva para enriquecer la narrativa y agregar matices a la acción y las descripciones."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 8 adverbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 6.01,
+        "valueMax": 7.00,
+        "index": 9,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 9 indica que hay un uso excelente de adverbios en el texto. Los adverbios se utilizan de manera precisa y evocadora, agregando matices y profundidad a la narrativa."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 9 adverbs"
+          }
+        ]
+      },
+      {
+        "valueMin": 4.01,
+        "valueMax": 6.00,
+        "index": 10,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 10 indica que hay un uso perfecto y equilibrado de adverbios en el texto. Los adverbios son utilizados con maestría para agregar matices, profundidad y fluidez a la narrativa."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 10 adverbs"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adjectives",
+    "globalIndex": 0.04,
+    "values": [
+      {
+        "valueMin": 0.00,
+        "valueMax": 0.25,
+        "index": 1,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 1 indica que hay un porcentaje muy bajo de adjetivos en el texto. Esto puede resultar en descripciones pobres o insuficientes, lo que dificulta la visualización y la inmersión del lector en la historia. La falta de adjetivos puede hacer que los personajes, lugares y situaciones carezcan de detalles y matices, resultando en una experiencia de lectura plana y poco estimulante."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.26,
+        "valueMax": 0.50,
+        "index": 2,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 2 indica que el porcentaje de adjetivos en el texto es bajo, lo que limita la capacidad de crear imágenes vívidas y detalladas en la mente del lector. Las descripciones pueden ser limitadas y no lograr transmitir la esencia de los personajes, lugares o situaciones."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 2 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.51,
+        "valueMax": 0.75,
+        "index": 3,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 3 indica que hay un porcentaje moderado de adjetivos en el texto, pero aún se puede trabajar en su uso para lograr descripciones más ricas y evocadoras. Las descripciones pueden ser adecuadas en algunos puntos, pero carecer de detalles y matices en otros."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 3 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.76,
+        "valueMax": 1.00,
+        "index": 4,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 4 indica que hay un porcentaje moderadamente bajo de adjetivos en el texto. Aunque las descripciones pueden ser adecuadas en algunos momentos, aún se puede trabajar en su uso para lograr una narrativa más rica y evocadora."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 4 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 1.01,
+        "valueMax": 2.00,
+        "index": 5,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Una puntuación de 5 indica que hay un porcentaje moderado de adjetivos en el texto, lo que permite crear descripciones adecuadas y enriquecer la narrativa. Sin embargo, aún se puede trabajar en su uso para lograr una mayor riqueza descriptiva y evocadora."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 5 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 2.01,
+        "valueMax": 3.00,
+        "index": 6,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto muestra un equilibrio adecuado entre la descripción y la acción al utilizar una cantidad justa de adjetivos. Los adjetivos seleccionados son relevantes y enriquecen la narrativa sin sobrecargarla. La lectura fluye de manera natural y el lector puede involucrarse activamente en la construcción de imágenes mentales. Sin embargo, aún existe margen para reducir ligeramente la cantidad de adjetivos y lograr una narrativa aún más envolvente y fluida."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 6 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 3.01,
+        "valueMax": 4.00,
+        "index": 7,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto utiliza adjetivos de manera efectiva para brindar detalles evocadores y enriquecer la narrativa. Los adjetivos seleccionados son relevantes y aportan un mayor impacto sin abrumar al lector. La lectura fluye de forma natural y el lector puede imaginar y conectar con la historia sin distracciones. Sin embargo, una ligera reducción en la cantidad de adjetivos redundantes podría mejorar aún más la experiencia de lectura."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 7 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 4.01,
+        "valueMax": 5.00,
+        "index": 8,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto utiliza una cantidad adecuada de adjetivos, lo que permite una descripción enriquecedora sin sobrecargar la narrativa. Los adjetivos seleccionados son evocadores y estratégicos, aportando detalles importantes y creando imágenes vívidas en la mente del lector. La lectura es fluida y atractiva, y el lector puede participar activamente en la construcción de la historia."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 8 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 5.01,
+        "valueMax": 5.50,
+        "index": 9,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto muestra una habilidad experta en el uso de adjetivos, utilizando solo los necesarios y relevantes para brindar una descripción impactante y evocadora. Los adjetivos seleccionados son precisos y estratégicos, enriqueciendo la narrativa sin sobrecargarla. La lectura es envolvente y el lector puede conectarse profundamente con la historia, visualizando y sintiendo cada detalle de manera vívida."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 9 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 5.51,
+        "valueMax": 6.00,
+        "index": 10,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto utiliza el número perfecto de adjetivos para una narrativa efectiva y envolvente. Los adjetivos seleccionados son precisos y estratégicos, aportando detalles esenciales y evocadores sin excederse en cantidad. La narrativa fluye de manera natural y el lector puede sumergirse por completo en la historia, participando activamente en la construcción de imágenes mentales y conectando emocionalmente con los personajes y la trama."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 10 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 6.01,
+        "valueMax": 7.00,
+        "index": 9,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto muestra una habilidad experta en el uso de adjetivos, utilizando solo los necesarios y relevantes para brindar una descripción impactante y evocadora. Los adjetivos seleccionados son precisos y estratégicos, enriqueciendo la narrativa sin sobrecargarla. La lectura es envolvente y el lector puede conectarse profundamente con la historia, visualizando y sintiendo cada detalle de manera vívida."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -9 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 7.01,
+        "valueMax": 8.00,
+        "index": 8,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto utiliza una cantidad adecuada de adjetivos, lo que permite una descripción enriquecedora sin sobrecargar la narrativa. Los adjetivos seleccionados son evocadores y estratégicos, aportando detalles importantes y creando imágenes vívidas en la mente del lector. La lectura es fluida y atractiva, y el lector puede participar activamente en la construcción de la historia."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -8 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 8.01,
+        "valueMax": 9.00,
+        "index": 7,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto utiliza adjetivos de manera efectiva para brindar detalles evocadores y enriquecer la narrativa. Los adjetivos seleccionados son relevantes y aportan un mayor impacto sin abrumar al lector. La lectura fluye de forma natural y el lector puede imaginar y conectar con la historia sin distracciones. Sin embargo, una ligera reducción en la cantidad de adjetivos redundantes podría mejorar aún más la experiencia de lectura."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -7 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 9.01,
+        "valueMax": 10.00,
+        "index": 6,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto muestra un equilibrio adecuado entre la descripción y la acción al utilizar una cantidad justa de adjetivos. Los adjetivos seleccionados son relevantes y enriquecen la narrativa sin sobrecargarla. La lectura fluye de manera natural y el lector puede involucrarse activamente en la construcción de imágenes mentales. Sin embargo, aún existe margen para reducir ligeramente la cantidad de adjetivos y lograr una narrativa aún más envolvente y fluida."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -6 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 10.01,
+        "valueMax": 11.00,
+        "index": 5,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto utiliza una cantidad moderada de adjetivos, pero algunos podrían reducirse para mejorar la claridad y la fluidez de la narrativa. Aunque los adjetivos descriptivos pueden ser útiles para brindar detalles, es importante no excederse en su uso y permitir que la historia avance sin obstáculos. Reducir algunos adjetivos redundantes ayudaría a mantener un ritmo narrativo más constante y a mantener el interés del lector."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -5 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 11.01,
+        "valueMax": 12.00,
+        "index": 4,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto contiene una cantidad considerable de adjetivos, lo que puede hacer que la lectura se sienta pesada y redundante. Algunos adjetivos se repiten innecesariamente, lo que afecta el impacto y la fluidez de la narrativa. Una selección más cuidadosa de los adjetivos, evitando la repetición y eligiendo aquellos más relevantes para la historia, permitiría una lectura más ágil y una mejor conexión con el lector."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -4 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 12.01,
+        "valueMax": 13.00,
+        "index": 3,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto presenta un uso excesivo de adjetivos, lo que afecta la claridad y concisión de la narrativa. Los adjetivos se repiten innecesariamente, lo que dificulta la identificación de la información relevante y ralentiza el ritmo de la historia. Una descripción más precisa y selectiva permitiría al lector una lectura más ágil y una mejor comprensión de la trama."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -3 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 13.01,
+        "valueMax": 14.00,
+        "index": 2,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto utiliza una cantidad excesiva de adjetivos, lo que dificulta la fluidez de la lectura. La descripción se torna repetitiva y cansada, y el ritmo narrativo se ralentiza. Además, el exceso de adjetivos limita la interpretación personal del lector y le quita la posibilidad de involucrarse de manera activa en la historia. Es necesario reducir la cantidad de adjetivos para permitir que el texto respire y para que el lector pueda conectar de forma más natural con la narrativa."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -2 adjectives"
+          }
+        ]
+      },
+      {
+        "valueMin": 14.01,
+        "valueMax": 100.00,
+        "index": 1,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto está repleto de adjetivos descriptivos, saturando la narrativa y dificultando su fluidez. La sobreabundancia de adjetivos distrae al lector y no permite que utilice su imaginación para llenar los espacios en blanco. La lectura se vuelve pesada y tediosa, y la trama principal se pierde en medio de una descripción excesiva. Es preferible reducir la cantidad de adjetivos para permitir que la historia fluya de manera más ágil y envolvente, y para que el lector pueda participar de forma más activa en la construcción de imágenes mentales."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -1 adjectives"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "literaryDevices",
+    "globalIndex": 0.02,
+    "values": [
+      {
+        "valueMin": 20.11,
+        "valueMax": 100.00,
+        "index": 1,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "En el texto se presentan excesivos recursos literarios que pueden abrumar al lector y dificultar la comprensión del mensaje. Estos recursos pueden incluir metáforas complicadas, aliteraciones repetitivas, uso excesivo de hipérboles o juegos de palabras exagerados. Aunque los recursos literarios pueden agregar belleza y estilo al texto, cuando se utilizan en exceso, distraen y confunden al lector."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 literaryDevices"
+          }
+        ]
+      },
+      {
+        "valueMin": 17.11,
+        "valueMax": 20.10,
+        "index": 2,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con una puntuación de 2 presenta un número excesivo de recursos literarios, lo que dificulta la comunicación efectiva. Aunque estos recursos pueden ser interesantes, su uso desmedido puede resultar confuso y distraer al lector del mensaje principal."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 2 literaryDevices"
+          }
+        ]
+      },
+      {
+        "valueMin": 14.51,
+        "valueMax": 17.10,
+        "index": 3,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con una puntuación de 3 presenta una cantidad considerable de recursos literarios, lo que puede dificultar la lectura fluida y la comprensión. Si bien algunos recursos literarios pueden ser efectivos, el exceso de ellos puede distraer al lector y dificultar la absorción del mensaje principal."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 3 literaryDevices"
+          }
+        ]
+      },
+      {
+        "valueMin": 12.31,
+        "valueMax": 14.50,
+        "index": 4,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "En un texto con una puntuación de 4 se encuentran una cantidad considerable de recursos literarios que pueden resultar algo abrumadores para el lector. Aunque estos recursos pueden agregar cierto estilo y expresividad, su uso en exceso puede dificultar la comprensión y distraer del mensaje central."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 4 literaryDevices"
+          }
+        ]
+      },
+      {
+        "valueMin": 10.41,
+        "valueMax": 12.30,
+        "index": 5,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con una puntuación de 5 presenta una cantidad considerable de recursos literarios, pero no en exceso. Estos recursos pueden agregar interés y estilo al texto, pero aún permiten una lectura fluida y una comprensión clara del mensaje."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 5 literaryDevices"
+          }
+        ]
+      },
+      {
+        "valueMin": 8.81,
+        "valueMax": 10.40,
+        "index": 6,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "En un texto con una puntuación de 6, se utilizan recursos literarios de manera efectiva y en una cantidad moderada. Estos recursos agregan estilo y expresividad al texto, sin llegar a distraer o dificultar la comprensión del mensaje principal."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 6 literaryDevices"
+          }
+        ]
+      },
+      {
+        "valueMin": 7.51,
+        "valueMax": 8.80,
+        "index": 7,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con una puntuación de 7 presenta una cantidad adecuada de recursos literarios que enriquecen el contenido y capturan la atención del lector. Estos recursos se utilizan de manera efectiva para realzar la expresividad y el estilo del texto, sin llegar a ser abrumadores."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 7 literaryDevices"
+          }
+        ]
+      },
+      {
+        "valueMin": 6.31,
+        "valueMax": 7.50,
+        "index": 8,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con una puntuación de 8 utiliza una cantidad óptima de recursos literarios para enriquecer el contenido y crear un impacto efectivo. Estos recursos se integran de manera equilibrada y cuidadosa, mejorando la expresividad y el estilo del texto sin distraer al lector."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 8 literaryDevices"
+          }
+        ]
+      },
+      {
+        "valueMin": 5.51,
+        "valueMax": 6.30,
+        "index": 9,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con una puntuación de 9 utiliza una cantidad muy efectiva y precisa de recursos literarios que enriquecen y embellecen el contenido. Estos recursos están cuidadosamente seleccionados y se aplican de manera estratégica, creando un impacto poderoso en el lector."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 9 literaryDevices"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.00,
+        "valueMax": 5.50,
+        "index": 10,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con una puntuación de 10 utiliza el número perfecto de recursos literarios para transmitir el mensaje de manera efectiva y con un equilibrio ideal. Estos recursos literarios están integrados de manera armoniosa y estratégica, realzando el contenido sin abrumar al lector."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 10 literaryDevices"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sexual",
+    "globalIndex": 0.08,
+    "values": [
+      {
+        "valueMin": 0.00,
+        "valueMax": 0.10,
+        "index": 1,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con una puntuación de 1 tiene muy pocas palabras sexuales. En una novela destinada a jóvenes adultos, donde los temas de madurez, amor y exploración son comunes, esto puede ser indicativo de que se evita la exploración de la sexualidad, lo que puede resultar poco realista o no satisfactorio para el lector."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.11,
+        "valueMax": 0.20,
+        "index": 2,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Este texto carece de palabras sexuales. Aunque puede haber alguna mención de la sexualidad, sigue siendo insuficiente para un público que está empezando a explorar estos aspectos de la vida."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 2 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.21,
+        "valueMax": 0.30,
+        "index": 3,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto contiene algunas palabras sexuales, pero todavía falta un enfoque realista en la sexualidad. Los temas sexuales pueden abordarse de forma más explícita para coincidir con las expectativas y experiencias del público objetivo."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 3 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.31,
+        "valueMax": 0.40,
+        "index": 4,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Este texto tiene un número creciente de palabras sexuales, pero todavía se siente algo escaso. Es probable que algunos aspectos de la vida sexual de los personajes no estén representados adecuadamente."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 4 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.41,
+        "valueMax": 0.50,
+        "index": 5,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con una puntuación de 5 ha incorporado un número moderado de palabras sexuales. Sin embargo, todavía puede haber situaciones que requieran un tratamiento más detallado de la sexualidad."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 5 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.51,
+        "valueMax": 0.60,
+        "index": 6,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Este texto tiene una presencia notable de palabras sexuales. Ofrece una visión matizada de la sexualidad, pero todavía puede faltar algo de profundidad o variedad en la representación."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 6 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.61,
+        "valueMax": 0.80,
+        "index": 7,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con esta puntuación tiene un número considerable de palabras sexuales. La sexualidad está bien representada, aunque aún se puede ajustar para proporcionar una visión aún más realista y equilibrada."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 7 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.81,
+        "valueMax": 1.00,
+        "index": 8,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Este texto tiene un número significativo de palabras sexuales, proporcionando una representación bastante completa de la sexualidad. Aún así, puede haber margen para un poco más de detalle o para abordar aspectos menos comunes de la sexualidad."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 8 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 1.01,
+        "valueMax": 1.20,
+        "index": 9,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto que recibe una puntuación de 9 tiene un número muy alto de palabras sexuales, proporcionando una visión muy completa y detallada de la sexualidad. Aunque las descripciones pueden trabajarse un poco más de forma sutil y elegante."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 9 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 1.21,
+        "valueMax": 1.50,
+        "index": 10,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Este texto tiene el equilibrio perfecto de palabras sexuales. Ofrece una representación realista y matizada de la sexualidad sin abrumar al lector. Las palabras sexuales están bien integradas en el contexto y contribuyen a la profundidad y autenticidad de la historia."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 10 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 1.51,
+        "valueMax": 2.00,
+        "index": 9,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Este texto ofrece una visión bastante equilibrada de la sexualidad. Los detalles están muy bien trabajados pero puede haber situaciones donde el lenguaje sexual todavía se sienta excesivo en algunos puntos."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -9 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 2.01,
+        "valueMax": 3.00,
+        "index": 8,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Este texto ofrece una visión bastante equilibrada de la sexualidad. Los detalles están bien trabajados pero puede haber situaciones donde el lenguaje sexual todavía se sienta un poco excesivo."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -8 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 3.01,
+        "valueMax": 4.00,
+        "index": 7,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Este texto ofrece una visión matizada de la sexualidad, pero puede haber situaciones donde el lenguaje sexual todavía se sienta un poco excesivo."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -7 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 4.01,
+        "valueMax": 5.00,
+        "index": 6,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Este texto ofrece una visión matizada de la sexualidad, pero puede haber situaciones donde el lenguaje sexual todavía se sienta un poco excesivo."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -6 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 5.01,
+        "valueMax": 6.00,
+        "index": 5,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con una puntuación de 5 tiene un número moderado de palabras sexuales. Sin embargo, su uso puede ser todavía ligeramente excesivo para algunos lectores, y puede haber margen para un mayor equilibrio en la representación de la sexualidad."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -5 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 6.01,
+        "valueMax": 7.00,
+        "index": 4,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El número de palabras sexuales de este texto está por encima de lo ideal. Aunque puede haber un enfoque más equilibrado en otros aspectos de la historia, el lenguaje sexual todavía puede ser excesivo y abrumador."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -4 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 7.01,
+        "valueMax": 8.00,
+        "index": 3,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Este texto tiene demasiadas palabras sexuales. Mientras que la sexualidad puede ser un tema relevante en la novela juvenil, su representación debería ser balanceada con otros elementos de la trama y el desarrollo del personaje."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -3 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 8.01,
+        "valueMax": 9.00,
+        "index": 2,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Encontramos un número desproporcionadamente alto de palabras sexuales. La cantidad de lenguaje sexual aún puede ser excesiva y distraer del contenido principal."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -2 sexual"
+          }
+        ]
+      },
+      {
+        "valueMin": 9.01,
+        "valueMax": 100.00,
+        "index": 1,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "El texto está inundado de palabras sexuales. En este extremo, las menciones sexuales pueden ser gratuitas, excesivas y potencialmente irrespetuosas. La abundancia de lenguaje sexual puede eclipsar otros aspectos importantes de la trama o del desarrollo del personaje, resultando en una historia unidimensional."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -1 sexual"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sensual",
+    "globalIndex": 0.08,
+    "values": [
+      {
+        "valueMin": 0.00,
+        "valueMax": 1.10,
+        "index": 1,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con muy pocas palabras sensuales. En este texto, se utilizan escasas o ninguna palabra sensual, lo que puede resultar en una narrativa romántica o íntima poco convincente. La falta de palabras sensuales puede hacer que la historia se sienta fría o desprovista de emoción. En una novela juvenil, es importante abordar el tema de las relaciones de manera realista y respetuosa, y una falta completa de palabras sensuales puede llevar a que la narrativa romántica se sienta poco auténtica o insatisfactoria."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 1.11,
+        "valueMax": 1.20,
+        "index": 2,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con algunas palabras sensuales insuficientes. En este texto, se incorporan algunas palabras sensuales, pero su uso es limitado o se presentan de manera tímida. La escasez de palabras sensuales puede restar intensidad y emoción a las escenas románticas, lo que puede afectar la conexión emocional entre los personajes y el lector. El uso insuficiente de palabras sensuales puede llevar a que las relaciones amorosas parezcan poco realistas o poco desarrolladas, lo que justifica una puntuación baja."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 2 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 1.21,
+        "valueMax": 1.30,
+        "index": 3,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con palabras sensuales poco convincentes. En este texto, se utilizan algunas palabras sensuales, pero su elección o contexto puede hacer que su efecto sea poco convincente. Las palabras sensuales se incluyen de manera superficial o genérica, sin generar una auténtica conexión emocional o una atmósfera romántica convincente. La falta de profundidad o la falta de cuidado en el uso de estas palabras puede afectar la calidad general de la narrativa y justificar una puntuación baja."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 3 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 1.31,
+        "valueMax": 1.40,
+        "index": 4,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto que utiliza palabras sensuales de forma moderada. En este texto, encontramos un uso moderado de palabras sensuales que están en sintonía con el desarrollo de la historia y la evolución de los personajes. Estas palabras se emplean para crear una atmósfera sugerente y añadir un toque de romanticismo, pero no dominan ni desvían la atención del argumento principal. Aunque se utilizan con moderación, aún queda margen para una mejor integración y equilibrio."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 4 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 1.41,
+        "valueMax": 1.60,
+        "index": 5,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto equilibrado con palabras sensuales adecuadas. En este texto, las palabras sensuales se utilizan de manera equilibrada y apropiada para una novela juvenil. Estas palabras contribuyen a la construcción de las relaciones amorosas o románticas entre los personajes, pero no dominan ni eclipsan otros aspectos de la historia. El uso equilibrado de palabras sensuales permite crear una tensión emocional y una conexión entre el lector y la trama, sin llegar a ser excesivo."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 5 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 1.61,
+        "valueMax": 1.70,
+        "index": 6,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto que utiliza palabras sensuales de forma hábil. En este texto, las palabras sensuales se emplean con habilidad y precisión para transmitir la intensidad de las emociones y la química entre los personajes. Estas palabras se integran de manera orgánica y realzan la construcción de relaciones y momentos íntimos, sin volverse demasiado gráficas o explícitas. Su uso cuidadoso añade profundidad y realismo a la narrativa sin sobrepasar los límites apropiados para una novela juvenil."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 6 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 1.71,
+        "valueMax": 1.90,
+        "index": 7,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto que emplea palabras sensuales efectivas. En este texto, las palabras sensuales se utilizan de manera efectiva para crear una atmósfera romántica y transmitir la pasión entre los personajes. Estas palabras se seleccionan cuidadosamente y se aplican con precisión, evocando imágenes y emociones que enriquecen la experiencia de lectura. Aunque presentes, las palabras sensuales no son excesivas ni gráficas, permitiendo que el lector se sumerja en la historia sin sentirse incómodo."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 7 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 1.91,
+        "valueMax": 2.10,
+        "index": 8,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con palabras sensuales expertamente dosificadas. Aquí, las palabras sensuales se utilizan con maestría y discernimiento, aportando una dosis adecuada de romanticismo y sensualidad a la narrativa. Estas palabras se eligen cuidadosamente y se insertan estratégicamente para resaltar momentos clave de la historia y fortalecer la conexión emocional entre los personajes y el lector. Su uso experto brinda un equilibrio perfecto entre la tensión romántica y la edad apropiada del público objetivo."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 8 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 2.11,
+        "valueMax": 2.30,
+        "index": 9,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con palabras sensuales excepcionales y precisas. En este texto, las palabras sensuales se convierten en una herramienta poderosa para comunicar la pasión, la intimidad y el crecimiento emocional de los personajes. Estas palabras se seleccionan con precisión y se utilizan para crear escenas evocadoras y profundas, sin caer en la vulgaridad o el exceso. Su inclusión experta añade una capa adicional de realismo y autenticidad a la narrativa, permitiendo al lector sumergirse plenamente en la historia."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 9 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 2.31,
+        "valueMax": 2.50,
+        "index": 10,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con palabras sensuales perfectamente equilibradas. En este texto, las palabras sensuales se utilizan con un equilibrio excepcional y en armonía con la temática y la edad del público objetivo. Cada palabra sensual se elige con cuidado y se coloca estratégicamente para intensificar las emociones, crear tensión romántica y enriquecer la experiencia de lectura. Estas palabras se utilizan con maestría, agregando un toque de sensualidad y realismo sin cruzar los límites apropiados para una novela juvenil."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 10 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 2.51,
+        "valueMax": 2.70,
+        "index": 9,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con palabras sensuales excepcionales y precisas. En este texto, las palabras sensuales se convierten en una herramienta poderosa para comunicar la pasión, la intimidad y el crecimiento emocional de los personajes. Estas palabras se seleccionan con precisión y se utilizan para crear escenas evocadoras y profundas, sin caer en la vulgaridad o el exceso. Su inclusión experta añade una capa adicional de realismo y autenticidad a la narrativa, permitiendo al lector sumergirse plenamente en la historia."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -9 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 2.71,
+        "valueMax": 2.90,
+        "index": 8,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con palabras sensuales expertamente dosificadas. Aquí, las palabras sensuales se utilizan con maestría y discernimiento, aportando una dosis adecuada de romanticismo y sensualidad a la narrativa. Estas palabras se eligen cuidadosamente y se insertan estratégicamente para resaltar momentos clave de la historia y fortalecer la conexión emocional entre los personajes y el lector. Su uso experto brinda un equilibrio perfecto entre la tensión romántica y la edad apropiada del público objetivo."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -8 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 2.91,
+        "valueMax": 3.10,
+        "index": 7,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto que emplea palabras sensuales efectivas. En este texto, las palabras sensuales se utilizan de manera efectiva para crear una atmósfera romántica y transmitir la pasión entre los personajes. Estas palabras se seleccionan cuidadosamente y se aplican con precisión, evocando imágenes y emociones que enriquecen la experiencia de lectura. Aunque presentes, las palabras sensuales no son excesivas ni gráficas, permitiendo que el lector se sumerja en la historia sin sentirse incómodo."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -7 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 3.11,
+        "valueMax": 3.40,
+        "index": 6,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto que utiliza palabras sensuales de forma hábil. En este texto, las palabras sensuales se emplean con habilidad y precisión para transmitir la intensidad de las emociones y la química entre los personajes. Estas palabras se integran de manera orgánica y realzan la construcción de relaciones y momentos íntimos, sin volverse demasiado gráficas o explícitas. Su uso cuidadoso añade profundidad y realismo a la narrativa sin sobrepasar los límites apropiados para una novela juvenil."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -6 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 3.41,
+        "valueMax": 3.70,
+        "index": 5,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto equilibrado con palabras sensuales adecuadas. En este texto, las palabras sensuales se utilizan de manera equilibrada y apropiada para una novela juvenil. Estas palabras contribuyen a la construcción de las relaciones amorosas o románticas entre los personajes, pero no dominan ni eclipsan otros aspectos de la historia. El uso equilibrado de palabras sensuales permite crear una tensión emocional y una conexión entre el lector y la trama, sin llegar a ser excesivo."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -5 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 3.71,
+        "valueMax": 4.00,
+        "index": 4,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto que utiliza palabras sensuales de forma moderada. En este texto, encontramos un uso moderado de palabras sensuales que están en sintonía con el desarrollo de la historia y la evolución de los personajes. Estas palabras se emplean para crear una atmósfera sugerente y añadir un toque de romanticismo, pero no dominan ni desvían la atención del argumento principal. Aunque se utilizan con moderación, aún queda margen para una mejor integración y equilibrio."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -4 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 4.01,
+        "valueMax": 4.30,
+        "index": 3,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con algunas palabras sensuales descontextualizadas. Aquí, se incorporan palabras sensuales de forma ocasional, pero carecen de conexión con la trama principal o el desarrollo de los personajes. Estas palabras pueden parecer forzadas o añadidas simplemente para crear un efecto llamativo o provocador. Su inclusión descontextualizada puede generar confusión o incomodidad en el lector, lo que justifica una puntuación baja."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -3 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 4.31,
+        "valueMax": 4.60,
+        "index": 2,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con varias palabras sensuales innecesarias. En este texto, se encuentran palabras sensuales que no aportan valor ni avance a la trama o el desarrollo de los personajes. Estas palabras se incluyen de manera superficial y sin una justificación clara dentro del contexto de la historia. El uso innecesario de palabras sensuales puede distraer y alejar al lector del núcleo de la narrativa, generando una puntuación baja."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -2 sensual"
+          }
+        ]
+      },
+      {
+        "valueMin": 4.61,
+        "valueMax": 100.00,
+        "index": 1,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Un texto con demasiadas palabras sensuales. En este texto, las palabras sensuales se utilizan de manera excesiva y gráfica, sobrepasando los límites adecuados para una novela juvenil. El contenido puede resultar inapropiado y fuera de lugar para el público objetivo, generando incomodidad y distracción. Un uso excesivo de palabras sensuales en una novela juvenil puede ser considerado irresponsable y poco adecuado, lo que justifica una puntuación baja."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio -1 sensual"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cultisms",
+    "globalIndex": 0.02,
+    "values": [
+      {
+        "valueMin": 0.41,
+        "valueMax": 100.00,
+        "index": 1,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Sobrecarga de palabras cultas: En este texto, se ha abusado de las palabras cultas hasta el punto en que la claridad y la accesibilidad del mensaje se ven seriamente comprometidas. La comunicación eficaz requiere un equilibrio, y este texto está demasiado cargado de términos cultos que podrían confundir o alienar a los lectores."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 cultisms"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.31,
+        "valueMax": 0.40,
+        "index": 2,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Exceso considerable de palabras cultas: Aunque un cierto nivel de vocabulario culto puede mejorar un texto, este tiene tantos términos cultos que puede resultar difícil de entender. Puede ser percibido como pretencioso y alejar a los lectores que no estén familiarizados con el vocabulario empleado."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 cultisms"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.26,
+        "valueMax": 0.30,
+        "index": 3,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Uso alto de palabras cultas: Este texto todavía tiene un alto número de palabras cultas, lo que puede dificultar su comprensión para un público amplio. Aunque demuestra un vocabulario impresionante, se aleja del objetivo de comunicación clara y eficaz."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 cultisms"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.21,
+        "valueMax": 0.25,
+        "index": 4,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Más palabras cultas de las necesarias: Este texto aún contiene un número de palabras cultas que excede lo que generalmente es útil para una comunicación efectiva. Aunque algunos lectores pueden apreciar el uso sofisticado del lenguaje, otros pueden encontrarlo innecesariamente complicado."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 cultisms"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.16,
+        "valueMax": 0.20,
+        "index": 5,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Uso moderado de palabras cultas: Este texto ha hecho un uso moderado de palabras cultas. Aunque todavía puede ser un poco desafiante para algunos lectores, también demuestra un buen equilibrio entre el lenguaje común y el vocabulario más culto."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 cultisms"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.11,
+        "valueMax": 0.15,
+        "index": 6,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Equilibrio entre palabras comunes y cultas: Este texto ha logrado un buen equilibrio entre el uso de palabras cultas y comunes. Aunque todavía podría ser un poco desafiante para algunos, es probable que sea accesible para la mayoría de los lectores."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 cultisms"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.08,
+        "valueMax": 0.1,
+        "index": 7,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Buena cantidad de palabras cultas: Este texto hace un buen uso de las palabras cultas. Mejora la calidad del contenido sin sacrificar la accesibilidad. Los lectores pueden aprender nuevos términos sin sentirse abrumados."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 cultisms"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.06,
+        "valueMax": 0.07,
+        "index": 8,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Uso óptimo de palabras cultas: Este texto hace un uso óptimo de las palabras cultas, realzando el contenido sin hacerlo inaccesible. La inclusión de palabras cultas es probable que enriquezca la lectura sin alejar a quienes no están familiarizados con ellas."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 cultisms"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.04,
+        "valueMax": 0.05,
+        "index": 9,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Casi perfecto uso de palabras cultas: Este texto hace un uso casi perfecto de palabras cultas, enriqueciendo el contenido y manteniendo a la vez la accesibilidad. Las palabras cultas se usan con precisión y propósito, y sirven para mejorar la calidad del texto."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 cultisms"
+          }
+        ]
+      },
+      {
+        "valueMin": 0.00,
+        "valueMax": 0.03,
+        "index": 10,
+        "explanation": [
+          {
+            "lang": "es-ES",
+            "text": "Uso perfecto de palabras cultas: Este texto ha logrado el equilibrio perfecto en el uso de palabras cultas. Cada término culto se ha utilizado de manera efectiva para enriquecer el texto, y cada uno de ellos aporta significado y profundidad sin alienar o confundir a los lectores."
+          },
+          {
+            "lang": "ca-ES",
+            "text": "explicacio 1 cultisms"
+          }
+        ]
+      }
+    ]
+  }
+]

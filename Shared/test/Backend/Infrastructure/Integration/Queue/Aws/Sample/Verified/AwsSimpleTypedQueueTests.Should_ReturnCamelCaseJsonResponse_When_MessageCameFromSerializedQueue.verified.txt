@@ -1,0 +1,18 @@
+﻿{
+  sendResponse: Guid_1,
+  Value:
+{
+  "rank": 3,
+  "domainName": "m47.com",
+  "contentsCount": 10
+},
+  deleteResponse:
+{
+  "ResponseMetadata": {
+    "Metadata": {},
+    "ChecksumAlgorithm": 0,
+    "ChecksumValidationStatus": 0
+  },
+  "HttpStatusCode": 200
+}
+}

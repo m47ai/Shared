@@ -1,0 +1,101 @@
+name: 🔦 Code coverage .Net
+
+on:
+  workflow_dispatch: {}
+
+  pull_request:
+    paths:
+      - '.github/workflows/coverage-report.yml'
+
+  push:
+    branches:
+      - "main"
+    paths:
+      - '.github/workflows/coverage-report.yml'
+      - 'Shared/src/Backend/**'
+      - 'Shared/test/Backend/**'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.sha }}
+  cancel-in-progress: true
+
+jobs:
+  coverage-backend:
+    permissions: write-all
+    if: ${{ !github.event.pull_request.draft }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    
+    steps:
+      - name: Check if PR is created by Dependabot
+        id: dependabot-check
+        run: echo "::set-output name=is_dependabot::${{ contains(github.actor, 'dependabot') }}" >> $GITHUB_OUTPUT
+
+      - name: Check if the workflow should run
+        if: ${{ !steps.dependabot-check.outputs.is_dependabot }}
+        run: echo "The workflow is allowed to run for this PR"
+
+      - name: 🧲 Checkout 
+        uses: actions/checkout@v4
+
+      - uses: actions/cache@v3
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-
+
+      - name: 💉 Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: "eu-west-1"
+
+      - name: Debug Step
+        env:
+          DEBUG: false
+        run: |
+          echo "Debug mode is active"
+          echo "Variable DEBUG = $DEBUG"
+
+      - name: Set permissions on init.sh
+        run: |
+          # git update-index --chmod=+x ./scripts/development/localstack/init.sh https://stackoverflow.com/a/21694391/541877
+          chmod +x ./scripts/development/localstack/init.sh
+          test -x ./scripts/development/localstack/init.sh && echo "init.sh Is Executable" || echo "init.sh  is NOT executable"
+
+      - name: 🛠️ Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Install dotnet-coverage
+        run: | 
+            dotnet tool install --global dotnet-coverage
+            dotnet tool install --global dotnet-reportgenerator-globaltool
+            
+      - name: 🌱 Set 'host.docker.internal' DNS name to host
+        run: echo -e "`/sbin/ip route | awk '/default/ { print $3 }'`\tdocker.host.internal" | sudo tee -a /etc/hosts > /dev/null
+
+      - name: 🔥 Run tests and collect coverage
+        run: |
+            dotnet-coverage collect dotnet test Hal2b.sln --configuration Release --output-format cobertura
+
+      - name: 🌍 Generating code coverage report
+        uses: danielpalme/ReportGenerator-GitHub-Action@5.2.0
+        with:
+          reports: output.cobertura.xml
+          targetdir: coveragereport
+          reporttypes: Html;HtmlInline;MarkdownSummaryGithub;Badges
+          assemblyfilters: +M47*;-*Test*;-Shared*
+          title: '.Net Projects'                  
+
+      # - name: 🌍 Generating code coverage report
+      #  run: |
+      #      reportgenerator -reports:output.cobertura.xml -targetdir:"./coveragereport" -reporttypes:Html;Badges -assemblyfilters:+Hal2b*;-*Test*
+                             
+      - name: ⬆️ Upload coverage report to S3 http://shared-coverage-report.s3-website-eu-west-1.amazonaws.com/
+        run: |
+             aws s3 sync coveragereport/ s3://shared-coverage-report/
+             echo "Report uploaded here: https://shared-coverage-report.m47.io/"

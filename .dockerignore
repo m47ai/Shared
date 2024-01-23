@@ -1,0 +1,41 @@
+# Exclude node_modules and its contents
+node_modules
+
+# Exclude build artifacts
+/.next
+/dist
+**/cdk.out
+**/bin
+
+# Exclude development-specific files
+**/node_modules
+**/obj
+
+# Exclude version control files
+**/.dockerignore
+**/.git
+**/.gitignore
+**/docker-compose*
+**/Dockerfile*
+
+# Exclude package manager lock files
+package-lock.json
+yarn.lock
+
+# Exclude any other unnecessary files or directories
+**/.classpath
+**/.project
+**/.settings
+**/.toolstarget
+**/.vs
+**/.vscode
+**/*.*proj.user
+**/*.dbmdl
+**/*.jfm
+**/azds.yaml
+**/charts
+**/npm-debug.log
+**/secrets.dev.yaml
+**/values.dev.yaml
+LICENSE
+**/*.md

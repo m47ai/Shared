@@ -1,0 +1,13 @@
+﻿{
+  sendResponse: Guid_1,
+  Value: Hi world!,
+  deleteResponse:
+{
+  "ResponseMetadata": {
+    "Metadata": {},
+    "ChecksumAlgorithm": 0,
+    "ChecksumValidationStatus": 0
+  },
+  "HttpStatusCode": 200
+}
+}
