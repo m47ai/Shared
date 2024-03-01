@@ -83,7 +83,7 @@ jobs:
             dotnet-coverage collect dotnet test Hal2b.sln --configuration Release --output-format cobertura
 
       - name: 🌍 Generating code coverage report
-        uses: danielpalme/ReportGenerator-GitHub-Action@5.2.0
+        uses: danielpalme/ReportGenerator-GitHub-Action@5.2.2
         with:
           reports: output.cobertura.xml
           targetdir: coveragereport
