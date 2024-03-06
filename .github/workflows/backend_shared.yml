@@ -47,11 +47,11 @@ jobs:
           test -x ./scripts/development/localstack/init.sh && echo "init.sh Is Executable" || echo "init.sh  is NOT executable"
 
       - name: 🛠️ Setup .NET
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
                     
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: ~/.nuget/packages
           key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
